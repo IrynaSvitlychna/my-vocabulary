@@ -1,0 +1,83 @@
+:root {
+  --first: #6c698d;
+  --second: #f92a82;
+  --third: #0affed;
+  --fourth: #f5cce8;
+  --fifth: #f0ccdd;
+}
+
+body {
+  background: var(--fifth);
+}
+
+.hero {
+  min-height: 350px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background: #fff;
+
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  h1 {
+    margin: 0;
+    text-align: center;
+    font-family: "Climate Crisis", sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    color: var(--second);
+  }
+
+  p.text {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    color: var(--first);
+
+    i {
+      font-weight: 700;
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--first);
+    /* margin-top: 0;
+    margin-bottom: 5px; */
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto 5px;
+  }
+
+  .swiper {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+
+    .swiper-item {
+      /* text-align: center; */
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center; */
+      background-color: var(--fourth);
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width: 350px;
+      border: var(--first);
+      padding: 20px;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 20px;
+      font-family: "Montserrat", sans-serif;
+      color: var(--second);
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add</title>
+  <link rel="stylesheet" href="add.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <a href="./index.html">Back</a>
+    <a href="./repeat.html">Repeat</a>
+  </header>
+
+
+  <section class="hero">
+    <div class="button-block">
+      <button class="word" id="btn-word">Add new word</button>
+      <button class="phrase" id="btn-phrase">Add new phrase</button>
+    </div>
+    <form id="form-word" class="hidden">
+      <input name="eng" placeholder="English" required />
+      <br>
+      <input name="ukr" placeholder="Ukrainian" required />
+      <br>
+      <button name="submit">ADD</button>
+    </form>
+    <form id="form-phrase" class="hidden">
+      <input name="eng" placeholder="English" required />
+      <br>
+      <input name="mean" placeholder="Meaning" required />
+      <br>
+      <input name="ukr" placeholder="Ukrainian" required />
+      <br>
+      <button type="submit">ADD</button>
+    </form>
+    <table id="list"></table>
+  </section>
+
+  <footer class="footer">
+    <span>© 2026 My Vocabulary App</span>
+  </footer>
+
+  <script src="add.js"></script>
+</body>
+
+</html>

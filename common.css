@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+
+  ul {
+    margin-left: 5px;
+  }
+}
+
+.header {
+  background: var(--fifth);
+  height: 50px;
+  display: flex;
+  gap: 50px;
+
+  a {
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--first);
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.footer {
+  flex-grow: 1;
+  background-color: var(--fifth);
+  height: 20px;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  font-family: "Roboto", sans-serif;
+
+  span {
+    color: #fff;
+    color: var(--first);
+  }
+}

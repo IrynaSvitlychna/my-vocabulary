@@ -1,0 +1,39 @@
+li {
+  list-style: none;
+}
+
+.cards-columns {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.column h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  color: var(--second);
+}
+
+.column div {
+  text-align: center;
+  font-size: 20px;
+}
+
+table {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  color: var(--first);
+}
+
+td {
+  padding: 5px;
+}

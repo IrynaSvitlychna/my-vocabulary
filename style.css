@@ -33,7 +33,7 @@ body {
   p.text {
     margin-top: 20px;
     text-align: center;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montsserat", sans-serif;
     color: var(--first);
 
     i {
@@ -45,8 +45,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     color: var(--first);
-    /* margin-top: 0;
-    margin-bottom: 5px; */
     font-family: "Roboto", sans-serif;
     margin: 0 auto 5px;
   }

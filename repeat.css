@@ -1,7 +1,8 @@
-.txt {
-  margin: 0 auto;
+p.txt {
+  margin: 0 auto 10px;
   color: var(--first);
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .btn {
